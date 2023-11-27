@@ -4,7 +4,7 @@
 // @grant    none
 // @author   MarcoInc
 // @description Rinomina le sezioni "Club Alumni"
-// @version  1.1
+// @version  1.1.1
 // @run-at   document-end
 // @license MIT
 // @namespace https://greasyfork.org/users/564300
