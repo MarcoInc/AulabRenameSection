@@ -8,6 +8,8 @@
 // @run-at   document-end
 // @license MIT
 // @namespace https://greasyfork.org/users/564300
+// @downloadURL https://update.greasyfork.org/scripts/480884/Aulab%20Sezioni%20rinominate.user.js
+// @updateURL https://update.greasyfork.org/scripts/480884/Aulab%20Sezioni%20rinominate.meta.js
 // ==/UserScript==
 
 (function() {
@@ -19,9 +21,8 @@
         nome.shift();
         nome.shift();
 
-        sezione.textContent = "Club Alumni - " + nome;
+        sezione.innerHTML=`<i class="fas fa-chevron-right tw-mx-2" aria-hidden="true"></i>Club Alumni - `+nome;
     });
 
 
 })();
-
